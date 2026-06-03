@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.env
+.env*.local
+next-dev.out.log
+next-dev.err.log
+next-start.out.log
+next-start.err.log
