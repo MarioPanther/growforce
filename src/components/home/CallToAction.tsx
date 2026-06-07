@@ -35,7 +35,7 @@ const CallToAction = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 shadow-lg"
+              className="border-white/30 text-accent hover:bg-white/10 shadow-lg"
             >
               <Link to="/contact">
                 <Phone className="mr-2 h-5 w-5" />
