@@ -49,7 +49,7 @@ const Header = () => {
               width={320}
               height={320}
               priority
-              className="h-80 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
