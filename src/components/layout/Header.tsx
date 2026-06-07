@@ -11,19 +11,19 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="w-full bg-accent text-accent-foreground py-2 px-4">
-        <div className="container mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center gap-6">
-            <a href="tel:+918692978344" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+      <div className="site-top-bar w-full bg-accent text-accent-foreground py-2 px-4">
+        <div className="site-top-bar__inner container mx-auto flex justify-between items-center text-sm">
+          <div className="site-header-contacts flex items-center gap-6">
+            <a href="tel:+918692978344" className="site-header-contact-link flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Phone className="w-3 h-3" />
-              <span>+91 86929 78344</span>
+              <span className="site-header-contact-text">+91 86929 78344</span>
             </a>
-            <a href="mailto:team.growforce@gmail.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <a href="mailto:team.growforce@gmail.com" className="site-header-contact-link flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Mail className="w-3 h-3" />
-              <span>team.growforce@gmail.com</span>
+              <span className="site-header-contact-text">team.growforce@gmail.com</span>
             </a>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="site-header-social flex items-center gap-3">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
               <Facebook className="w-4 h-4" />
             </a>

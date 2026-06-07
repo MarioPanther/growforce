@@ -122,6 +122,44 @@ All colors MUST be HSL.
   }
 }
 
+@media (max-width: 767px) {
+  .site-top-bar {
+    padding-block: 0.375rem;
+  }
+
+  .site-top-bar__inner {
+    justify-content: space-between;
+  }
+
+  .site-header-contacts {
+    gap: 0.75rem;
+  }
+
+  .site-header-social {
+    gap: 0.75rem;
+  }
+
+  .site-header-contact-link,
+  .site-header-social a {
+    align-items: center;
+    border-radius: 9999px;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+  }
+
+  .site-header-contact-link svg,
+  .site-header-social svg {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .site-header-contact-text {
+    display: none;
+  }
+}
+
 @keyframes floating-action-ripple {
   0% {
     opacity: 0.36;
